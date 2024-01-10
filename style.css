@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: roboto, Helvetica, sans-serif;
 }
 
 img {
@@ -13,7 +13,8 @@ img {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 30px;
+    gap: 15px;
+    padding: 0px
 }
 
 a {
@@ -38,12 +39,13 @@ body {
 .header {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-between;
-    padding: 20px 430px;
+    justify-content: space-around;
     flex: 1;
+    padding: 15px;
 }
 
 .header-left {
+    align-self: center;
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 800;
@@ -55,10 +57,12 @@ body {
     flex: 1;
     justify-content: center;
     gap: 55px;
-    padding: 40px 0px 60px 0px;
+    padding: 40px 15px 60px 15px;
+    flex-wrap: wrap;
 }
 
 .one button {
+    font-size: 20px;
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
@@ -67,7 +71,6 @@ body {
 }
 
 .hero-main {
-    max-width: 400px;
     display: flex;
     flex-wrap: wrap;
     font-size: 48px;
@@ -80,8 +83,7 @@ body {
     flex-wrap: wrap;
     font-size: 18px;
     color: #E5E7EB;
-    width: 400px;
-    margin: 20px 0px 25px 0px;
+    margin: 20px 0px 35px 0px;
 }
 
 .two {
@@ -125,7 +127,6 @@ body {
 
 .three {
     display: flex;
-    /* flex-direction: column; */
     flex: 1;
     background-color: #E5E7EB;
     justify-content: center;
@@ -134,21 +135,20 @@ body {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
-    padding: 90px 400px;;
+    padding: 60px;
     flex-wrap: wrap;
     max-width: 100%;
 }
 
-.three div {
-    width: 80%
+.quote {
+/*  */
 }
 
 .thor {
-    margin: 15px 225px 0px 100px;
     font-weight: 700;
     display: flex;
-    justify-content: flex-end;
     flex-wrap: wrap;
+    margin: 20px 130px auto auto;
 }
 
 .four {
@@ -161,11 +161,12 @@ body {
 
 .sign-up-panel {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-between;
     background-color: #3882F6;
-    padding: 50px 120px;
+    padding: 60px;
     border-radius: 8px;
-    width: 70%;
 }
 
 .panel-left {
@@ -175,6 +176,7 @@ body {
 }
 
 .action {
+    font-size: 30px;
     font-weight: 900;
 }
 
@@ -183,7 +185,8 @@ body {
     border: 2px solid #F9FAF8;
     background-color: #3882F6;
     border-radius: 5px;
-    padding: 2px 20px
+    padding: 2px 20px;
+    flex-grow: 0;
 }
 
 .footer {
