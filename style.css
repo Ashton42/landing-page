@@ -131,8 +131,7 @@ body {
 .cards  {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    flex: 1;
+    justify-content: space-evenly;
     gap: 50px
 }
 
