@@ -61,6 +61,11 @@ body {
     flex-wrap: wrap;
 }
 
+.one-left {
+    max-width: 60%;
+    margin-right: 80px;
+}
+
 .one button {
     font-size: 20px;
     background-color: #3882F6;
@@ -89,7 +94,7 @@ body {
 .two {
     display: flex;
     flex: 1;
-    /* justify-content: center;*/
+    justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 30px;
     column-gap: 0px;
@@ -126,9 +131,9 @@ body {
 .cards  {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     flex: 1;
-    column-gap: 10px;
+    max-width: 70%;
 }
 
 .info-text {
@@ -137,6 +142,7 @@ body {
 
 .three {
     display: flex;
+    flex-direction: row;
     flex: 1;
     background-color: #E5E7EB;
     justify-content: center;
@@ -152,9 +158,15 @@ body {
 
 .thor {
     font-weight: 700;
+    margin: 30px 0px 0px 0px;
+    align-self: flex-end;
+}
+
+.quote-container {
     display: flex;
-    flex-wrap: wrap;
-    margin: 20px 130px auto auto;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
 }
 
 .four {
@@ -173,6 +185,7 @@ body {
     background-color: #3882F6;
     padding: 60px;
     border-radius: 8px;
+    width: 75%
 }
 
 .panel-left {
@@ -187,12 +200,13 @@ body {
 }
 
 .sign-up-panel button {
+    font-weight: 700;
     color:#F9FAF8;
     border: 2px solid #F9FAF8;
     background-color: #3882F6;
     border-radius: 5px;
-    padding: 2px 20px;
-    flex-grow: 0;
+    font-size: 20px;
+    padding: 0px 25px
 }
 
 .footer {
